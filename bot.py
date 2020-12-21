@@ -24,7 +24,7 @@ async def on_message(message):
                 "of the human mind and when someone is asked or asks the question “who is Joe?” it results " \
                 "in the asker getting pranked when the asked says the phrase “Joe mama”"
 
-    if message.content == 'Joe!':
+    if message.content == '!Joe':
         response = joe_pasta
         await message.channel.send(response)
 
